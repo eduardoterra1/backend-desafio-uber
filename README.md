@@ -65,10 +65,9 @@ Exemplo de Resposta:
   "Vertigo",
   "Veronika Decides to Die"
 ]
-🔧 Configurações
 ```
-
-### As configurações da API externa e portas estão definidas em src/main/resources/application.yml.
+🔧 Configurações
+## As configurações da API externa e portas estão definidas em src/main/resources/application.yml.
 
 💡 Observações
 
