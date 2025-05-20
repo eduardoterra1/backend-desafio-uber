@@ -29,6 +29,7 @@ GET /movies
 Retorna a lista de filmes filmados em San Francisco. É possível filtrar pelo nome do filme usando o parâmetro title.
 
 Exemplo de Requisição:
+
 ```
 GET /movies?title=Vertigo
 Exemplo de Resposta:
@@ -46,12 +47,11 @@ Exemplo de Resposta:
 
 ```
 
-```
 GET /movies/autocomplete
 Retorna a lista de filmes com um autocomplete baseado nas tres primeiras letras que o usuario informar
-
 query: as iniciais do título do filme
 Exemplo de Requisição:
+
 ```
 GET /movies/autocomplete?query=Ver
 Exemplo de Resposta:
