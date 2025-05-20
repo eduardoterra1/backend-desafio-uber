@@ -50,6 +50,7 @@ Exemplo de Resposta:
 GET /movies/autocomplete
 Retorna a lista de filmes com um autocomplete baseado nas tres primeiras letras que o usuario informar
 query: as iniciais do título do filme
+
 Exemplo de Requisição:
 
 ```
