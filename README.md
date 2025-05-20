@@ -25,12 +25,11 @@ java -jar target/spring.boot-desafio-uber-0.0.1-SNAPSHOT.jar
 
 
 📌 Endpoints da API
-```
 GET /movies
 Retorna a lista de filmes filmados em San Francisco. É possível filtrar pelo nome do filme usando o parâmetro title.
 
 Exemplo de Requisição:
-
+```
 GET /movies?title=Vertigo
 Exemplo de Resposta:
 
@@ -51,11 +50,9 @@ Exemplo de Resposta:
 GET /movies/autocomplete
 Retorna a lista de filmes com um autocomplete baseado nas tres primeiras letras que o usuario informar
 
-Parâmetro:
-
 query: as iniciais do título do filme
 Exemplo de Requisição:
-
+```
 GET /movies/autocomplete?query=Ver
 Exemplo de Resposta:
 
@@ -64,13 +61,12 @@ Exemplo de Resposta:
   "Veronika Decides to Die"
 ]
 🔧 Configurações
-
 ```
 
-As configurações da API externa e portas estão definidas em src/main/resources/application.yml.
+### As configurações da API externa e portas estão definidas em src/main/resources/application.yml.
 
 💡 Observações
 
-A API utiliza WebClient do Spring WebFlux para realizar chamadas assíncronas à API externa.
-Lombok é usado para reduzir boilerplate de código.
-Spring DevTools está incluído para facilitar o desenvolvimento com recarga automática.
+- A API utiliza WebClient do Spring WebFlux para realizar chamadas assíncronas à API externa.
+- Lombok é usado para reduzir boilerplate de código.
+- Spring DevTools está incluído para facilitar o desenvolvimento com recarga automática.
