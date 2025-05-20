@@ -18,13 +18,14 @@ Certifique-se de ter o **Java 17+** e o **Maven** instalados.
 
 ```bash
 git clone https://github.com/seuusuario/sanfrancisco-movies-api.git
-cd sanfrancisco-movies-api
+cd spring.boot.desafio.uber
 mvn clean install
-java -jar target/sanfrancisco-movies-api-0.0.1-SNAPSHOT.jar
+java -jar target/spring.boot-desafio-uber-0.0.1-SNAPSHOT.jar
+```
 
 
 📌 Endpoints da API
-
+```
 GET /movies
 Retorna a lista de filmes filmados em San Francisco. É possível filtrar pelo nome do filme usando o parâmetro title.
 
@@ -43,8 +44,11 @@ Exemplo de Resposta:
     "actor_3": "Golden Gate Bridge"
   }
 ]
+
+```
+```
 GET /movies/autocomplete
-Retorna sugestões de títulos de filmes com base nas iniciais fornecidas.
+Retorna a lista de filmes com um autocomplete baseado nas tres primeiras letras que o usuario informar
 
 Parâmetro:
 
@@ -59,6 +63,8 @@ Exemplo de Resposta:
   "Veronika Decides to Die"
 ]
 🔧 Configurações
+
+```
 
 As configurações da API externa e portas estão definidas em src/main/resources/application.yml.
 
