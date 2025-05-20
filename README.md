@@ -44,7 +44,7 @@ Exemplo de Resposta:
     "release_year": "2021",
     "locations": "California at Grant Ave",
     "actor_1": "Keanu Reeves",
-    "actor_2": "Keanu Reeves",
+    "actor_2": "Carrie-Anne Moss",
     "actor_3": "Neil Patrick Harris"
   }
 ]
