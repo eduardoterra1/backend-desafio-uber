@@ -16,10 +16,14 @@ Esta é uma API REST desenvolvida em **Java** com **Spring Boot**, utilizando **
 
 Certifique-se de ter o **Java 17+** e o **Maven** instalados.
 
-```bash
-git clone https://github.com/seuusuario/sanfrancisco-movies-api.git
+```
+bash
+git clone https://github.com/seuusuario/backend-desafio-uber.git
+
 cd spring.boot.desafio.uber
+
 mvn clean install
+
 java -jar target/spring.boot-desafio-uber-0.0.1-SNAPSHOT.jar
 ```
 
