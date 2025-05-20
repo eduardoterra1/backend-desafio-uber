@@ -66,11 +66,11 @@ Exemplo de Resposta:
   "Veronika Decides to Die"
 ]
 ```
+
 🔧 Configurações
-## As configurações da API externa e portas estão definidas em src/main/resources/application.yml.
+- As configurações da API externa e portas estão definidas em src/main/resources/application.yml.
 
-💡 Observações
-
+### 💡 Observações
 - A API utiliza WebClient do Spring WebFlux para realizar chamadas assíncronas à API externa.
 - Lombok é usado para reduzir boilerplate de código.
 - Spring DevTools está incluído para facilitar o desenvolvimento com recarga automática.
